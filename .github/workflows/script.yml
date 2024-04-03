@@ -23,7 +23,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run python script
-        run: python .github/workflows/ldr.py
+        run: python .github/workflows/example.py
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
