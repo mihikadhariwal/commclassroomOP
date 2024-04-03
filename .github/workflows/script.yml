@@ -7,6 +7,9 @@ on:
   push:
     branches:
       - main
+    paths:
+      - '**.py' # This line specifies that the workflow should trigger only when a .py file is pushed
+
       
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
